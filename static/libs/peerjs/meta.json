@@ -1,0 +1,211 @@
+{
+    "name": "peerjs",
+    "filename": "peerjs.min.js",
+    "version": "1.0.4",
+    "description": "PeerJS client",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/peers/peerjs"
+    },
+    "keywords": [
+        "js",
+        "WebRTC"
+    ],
+    "author": "Michelle Bu, Eric Zhang",
+    "homepage": "http://peerjs.com/",
+    "autoupdate": {
+        "source": "npm",
+        "target": "peerjs"
+    },
+    "license": "MIT",
+    "assets": [
+        {
+            "version": "1.0.4",
+            "files": [
+                "peerjs.min.js",
+                "peerjs.min.js.map",
+                "peerjs.min.map"
+            ]
+        },
+        {
+            "version": "1.0.3",
+            "files": [
+                "peerjs.min.js",
+                "peerjs.min.js.map",
+                "peerjs.min.map"
+            ]
+        },
+        {
+            "version": "1.0.2",
+            "files": [
+                "peerjs.min.js",
+                "peerjs.min.js.map",
+                "peerjs.min.map"
+            ]
+        },
+        {
+            "version": "1.0.0",
+            "files": [
+                "peerjs.min.js",
+                "peerjs.min.js.map",
+                "peerjs.min.map"
+            ]
+        },
+        {
+            "version": "0.3.24",
+            "files": [
+                "peerjs.min.js",
+                "peerjs.min.map"
+            ]
+        },
+        {
+            "version": "0.3.23",
+            "files": [
+                "peerjs.min.js",
+                "peerjs.min.map"
+            ]
+        },
+        {
+            "version": "0.3.22",
+            "files": [
+                "peerjs.min.js",
+                "peerjs.min.map"
+            ]
+        },
+        {
+            "version": "0.3.20",
+            "files": [
+                "peer.js",
+                "peer.js.map",
+                "peer.min.js"
+            ]
+        },
+        {
+            "version": "0.3.19",
+            "files": [
+                "peer.js",
+                "peer.js.map",
+                "peer.min.js"
+            ]
+        },
+        {
+            "version": "0.3.18",
+            "files": [
+                "peer.js",
+                "peer.min.js"
+            ]
+        },
+        {
+            "version": "0.3.17",
+            "files": [
+                "peer.js",
+                "peer.min.js"
+            ]
+        },
+        {
+            "version": "0.3.16",
+            "files": [
+                "peer.js",
+                "peer.min.js"
+            ]
+        },
+        {
+            "version": "0.3.15",
+            "files": [
+                "peer.js",
+                "peer.min.js"
+            ]
+        },
+        {
+            "version": "0.3.14",
+            "files": [
+                "peer.js",
+                "peer.min.js"
+            ]
+        },
+        {
+            "version": "0.3.13",
+            "files": [
+                "peer.js",
+                "peer.min.js"
+            ]
+        },
+        {
+            "version": "0.3.12",
+            "files": [
+                "peer.js",
+                "peer.min.js"
+            ]
+        },
+        {
+            "version": "0.3.10",
+            "files": [
+                "peer.js",
+                "peer.min.js"
+            ]
+        },
+        {
+            "version": "0.3.9",
+            "files": [
+                "peer.js",
+                "peer.min.js"
+            ]
+        },
+        {
+            "version": "0.3.8",
+            "files": [
+                "peer.js",
+                "peer.min.js"
+            ]
+        },
+        {
+            "version": "0.3.7",
+            "files": [
+                "peer.js",
+                "peer.min.js"
+            ]
+        },
+        {
+            "version": "0.3.6",
+            "files": [
+                "peer.js",
+                "peer.min.js"
+            ]
+        },
+        {
+            "version": "0.3.5",
+            "files": [
+                "peer.js",
+                "peer.min.js"
+            ]
+        },
+        {
+            "version": "0.3.4",
+            "files": [
+                "peer.js",
+                "peer.min.js"
+            ]
+        },
+        {
+            "version": "0.3.2",
+            "files": [
+                "peer.js",
+                "peer.min.js"
+            ]
+        },
+        {
+            "version": "0.3.1",
+            "files": [
+                "peer.js",
+                "peer.min.js"
+            ]
+        },
+        {
+            "version": "0.2.0",
+            "files": [
+                "peer.js",
+                "peer.min.js"
+            ]
+        }
+    ]
+}

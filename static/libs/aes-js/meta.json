@@ -1,0 +1,145 @@
+{
+    "name": "aes-js",
+    "filename": "index.min.js",
+    "version": "3.1.2",
+    "description": "A pure JavaScript implementation of the AES block cipher and all common modes of operation.",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/ricmoo/aes-js.git"
+    },
+    "keywords": [
+        "aes",
+        "aes-ctr",
+        "aes-ofb",
+        "aes-ecb",
+        "aes-cbc",
+        "aes-cfb",
+        "encrypt",
+        "decrypt",
+        "block",
+        "cipher"
+    ],
+    "author": "Richard Moore <me@ricmoo.com>",
+    "autoupdate": {
+        "source": "npm",
+        "target": "aes-js"
+    },
+    "license": "MIT",
+    "assets": [
+        {
+            "version": "3.1.2",
+            "files": [
+                "index.js",
+                "index.min.js",
+                "index.min.js.map"
+            ]
+        },
+        {
+            "version": "3.1.1",
+            "files": [
+                "index.js",
+                "index.min.js",
+                "index.min.js.map"
+            ]
+        },
+        {
+            "version": "3.1.0",
+            "files": [
+                "index.js",
+                "index.min.js",
+                "index.min.js.map"
+            ]
+        },
+        {
+            "version": "3.0.0",
+            "files": [
+                "index.js",
+                "index.min.js"
+            ]
+        },
+        {
+            "version": "2.1.1",
+            "files": [
+                "index.js",
+                "index.min.js"
+            ]
+        },
+        {
+            "version": "2.1.0",
+            "files": [
+                "index.js",
+                "index.min.js"
+            ]
+        },
+        {
+            "version": "2.0.0",
+            "files": [
+                "index.js",
+                "index.min.js"
+            ]
+        },
+        {
+            "version": "1.0.0",
+            "files": [
+                "index.js",
+                "index.min.js"
+            ]
+        },
+        {
+            "version": "0.2.4",
+            "files": [
+                "index.js",
+                "index.min.js"
+            ]
+        },
+        {
+            "version": "0.2.3",
+            "files": [
+                "index.js",
+                "index.min.js"
+            ]
+        },
+        {
+            "version": "0.2.2",
+            "files": [
+                "index.js",
+                "index.min.js"
+            ]
+        },
+        {
+            "version": "0.2.1",
+            "files": [
+                "index.js",
+                "index.min.js"
+            ]
+        },
+        {
+            "version": "0.2.0",
+            "files": [
+                "index.js",
+                "index.min.js"
+            ]
+        },
+        {
+            "version": "0.1.0",
+            "files": [
+                "index.js",
+                "index.min.js"
+            ]
+        },
+        {
+            "version": "0.0.2",
+            "files": [
+                "index.js",
+                "index.min.js"
+            ]
+        },
+        {
+            "version": "0.0.1",
+            "files": [
+                "index.js",
+                "index.min.js"
+            ]
+        }
+    ]
+}

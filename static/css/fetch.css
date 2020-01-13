@@ -1,0 +1,292 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+    color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+    color: #333;
+    text-shadow: none; /* Prevent inheritance from `body` */
+    background-color: #fff;
+    border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+    height: 100%;
+    background-color: #dedede;
+}
+
+body {
+    display: -ms-flexbox;
+    display: flex;
+    color: #212529;
+    /*text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);*/
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.cover-container {
+    max-width: 60em;
+}
+
+
+/*
+ * Header
+ */
+.masthead {
+    margin-bottom: 2rem;
+}
+
+.masthead-brand {
+    margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+    padding: .25rem 0;
+    font-weight: 700;
+    color: rgba(33, 37, 41, 0.5);
+    background-color: transparent;
+    border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+    border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+    margin-left: 1rem;
+}
+
+.nav-masthead .active {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+    .masthead-brand {
+        float: left;
+    }
+
+    .nav-masthead {
+        float: right;
+    }
+}
+
+#main {
+    border-radius: 0.25rem;
+    max-height: 900px;
+    height: 80%;
+    min-height: 500px;
+    border: 1px solid #ffffff80;
+    background: #f5f5f5;
+    position: relative;
+}
+
+#main.drag {
+    border: 1px solid #f00;
+    box-shadow: 0 0 1rem #f00;
+}
+
+#main.drag * {
+    pointer-events: none;
+}
+
+#main .messageBox {
+    height: 70%;
+    padding: 1rem 0;
+    overflow-y: scroll;
+}
+
+#main .messageBox .message {
+    clear: both;
+    position: relative;
+}
+
+#main .messageBox .message.raw[data-expires]:before {
+    content: attr(expires);
+    padding-right: 1rem;
+    font-size: small;
+    color: #808080;
+}
+
+#main .messageBox .message.left[data-expires]:before {
+    left: 3.5rem;
+    content: attr(expires);
+    position: absolute;
+    top: -1rem;
+    font-size: small;
+    color: #808080;
+}
+
+#main .messageBox .message.right[data-expires]:before {
+    right: 3.5rem;
+    content: attr(expires);
+    position: absolute;
+    top: -1rem;
+    font-size: small;
+    color: #808080;
+}
+
+#main .messageBox .message p img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#main .messageBox .message > p {
+    background: #fff;
+    display: inline;
+    max-width: 70%;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+    position: relative;
+    text-align: left;
+}
+
+#main .messageBox img.avatar {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.qrcode > canvas {
+    width: 10rem;
+}
+
+#main .messageBox > div {
+    clear: both;
+}
+
+#main .messageBox .message.raw {
+    font-size: small;
+    color: #808080;
+}
+
+#main .messageBox .message > .file {
+    width: 12rem;
+    display: block;
+    background: #fff;
+}
+
+#main .message a.file {
+    color: #aa00ff;
+}
+
+#main .message a.file.pre-file {
+    color: #007bff;
+}
+
+#main .messageBox .message.left img.avatar {
+    left: 0.5rem;
+}
+
+#main .messageBox .message.right img.avatar {
+    right: 0.5rem;
+}
+
+#main p {
+    word-break: break-word;
+}
+
+#main .messageBox .message.left > p {
+    float: left;
+    margin-left: 3rem;
+}
+
+#main .messageBox .message.right > p::after {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 5px;
+    right: -16px;
+    border: solid 8px;
+    border-color: transparent transparent transparent #9eea6a;
+    font-size: 0;
+}
+
+#main .messageBox .message.right > p {
+    float: right;
+    margin-right: 3rem;
+    background: #9eea6a;
+}
+
+#main .messageBox .message.left > p::before {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 5px;
+    left: -16px;
+    border: solid 8px;
+    border-color: transparent #ffffff transparent transparent;
+    font-size: 0;
+}
+
+#main .inputBox {
+    height: 30%;
+    background: #ffffff;
+    border-top: 1px solid #ececec;
+}
+
+.inputBox button.send {
+    float: right;
+    position: absolute;
+    right: 6px;
+    bottom: 6px;
+    min-width: 4em;
+}
+
+.inputBox button.file {
+    float: left;
+    position: absolute;
+    left: 6px;
+    bottom: 6px;
+}
+
+textarea.form-control {
+    border: none;
+    resize: none;
+    outline: none !important;
+}
+
+textarea.form-control:focus {
+    box-shadow: none;
+}
+
+/*
+ * Footer
+ */
+.mastfoot {
+    color: rgba(255, 255, 255, .5);
+}

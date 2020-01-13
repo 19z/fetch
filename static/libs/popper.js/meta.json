@@ -1,0 +1,2112 @@
+{
+    "name": "popper.js",
+    "filename": "popper.min.js",
+    "version": "1.16.0",
+    "description": "A kickass library to manage your poppers",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/FezVrasta/popper.js.git"
+    },
+    "keywords": [
+        "tooltips",
+        "popovers",
+        "poppers",
+        "customizable"
+    ],
+    "author": "Federico Zivolo <federico.zivolo@gmail.com>",
+    "homepage": "https://popper.js.org/",
+    "autoupdate": {
+        "source": "npm",
+        "target": "popper.js"
+    },
+    "license": "MIT",
+    "assets": [
+        {
+            "version": "1.16.0",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.15.0",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.14.7",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.14.6",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.14.5",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.14.4",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.14.3",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.14.2",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.14.1",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.14.0",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.13.0",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.13.0-next.1",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.13.0-next",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.12.9",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.12.8",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.12.7",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.12.6",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.12.5",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.12.4",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.12.3",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.12.2",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.12.1",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.12.0",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.11.1",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.11.0",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.10.8",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.10.7",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.10.6",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.10.5",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.10.4",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.10.3",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.10.2",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.10.1",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.10.0",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.9.9",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.9.8",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.9.7",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.9.6",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.9.5",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.9.4",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.9.3",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.9.2",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.9.1",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.9.0",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.8.6",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.8.5",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.8.4",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.8.3",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.8.2",
+            "files": [
+                "esm/popper-utils.js",
+                "esm/popper-utils.js.map",
+                "esm/popper-utils.min.js",
+                "esm/popper-utils.min.js.map",
+                "esm/popper.js",
+                "esm/popper.js.map",
+                "esm/popper.min.js",
+                "esm/popper.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "umd/popper-utils.js",
+                "umd/popper-utils.js.map",
+                "umd/popper-utils.min.js",
+                "umd/popper-utils.min.js.map",
+                "umd/popper.js",
+                "umd/popper.js.map",
+                "umd/popper.min.js",
+                "umd/popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.8.1",
+            "files": [
+                "popper-utils.es5.js",
+                "popper-utils.es5.js.map",
+                "popper-utils.es5.min.js",
+                "popper-utils.es5.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.es5.js",
+                "popper.es5.js.map",
+                "popper.es5.min.js",
+                "popper.es5.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.8.0",
+            "files": [
+                "popper-utils.es5.js",
+                "popper-utils.es5.js.map",
+                "popper-utils.es5.min.js",
+                "popper-utils.es5.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.es5.js",
+                "popper.es5.js.map",
+                "popper.es5.min.js",
+                "popper.es5.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.7.0",
+            "files": [
+                "popper-utils.es5.js",
+                "popper-utils.es5.js.map",
+                "popper-utils.es5.min.js",
+                "popper-utils.es5.min.js.map",
+                "popper-utils.js",
+                "popper-utils.js.map",
+                "popper-utils.min.js",
+                "popper-utils.min.js.map",
+                "popper.es5.js",
+                "popper.es5.js.map",
+                "popper.es5.min.js",
+                "popper.es5.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.6.0",
+            "files": [
+                "popper.es5.js",
+                "popper.es5.js.map",
+                "popper.es5.min.js",
+                "popper.es5.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.5.2",
+            "files": [
+                "popper.es5.js",
+                "popper.es5.js.map",
+                "popper.es5.min.js",
+                "popper.es5.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.5.1",
+            "files": [
+                "popper.es5.js",
+                "popper.es5.js.map",
+                "popper.es5.min.js",
+                "popper.es5.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.5.1-pre.2",
+            "files": [
+                "popper.es5.js",
+                "popper.es5.js.map",
+                "popper.es5.min.js",
+                "popper.es5.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.5.1-pre",
+            "files": [
+                "popper.es5.js",
+                "popper.es5.js.map",
+                "popper.es5.min.js",
+                "popper.es5.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.5.0",
+            "files": [
+                "popper.es5.js",
+                "popper.es5.js.map",
+                "popper.es5.min.js",
+                "popper.es5.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.0.8",
+            "files": [
+                "popper.es5.js",
+                "popper.es5.js.map",
+                "popper.es5.min.js",
+                "popper.es5.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.0.7",
+            "files": [
+                "popper.es5.js",
+                "popper.es5.js.map",
+                "popper.es5.min.js",
+                "popper.es5.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.0.6",
+            "files": [
+                "popper.es5.js",
+                "popper.es5.js.map",
+                "popper.es5.min.js",
+                "popper.es5.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.0.5",
+            "files": [
+                "popper.es5.js",
+                "popper.es5.js.map",
+                "popper.es5.min.js",
+                "popper.es5.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.0.4",
+            "files": [
+                "popper.es5.js",
+                "popper.es5.js.map",
+                "popper.es5.min.js",
+                "popper.es5.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.0.3",
+            "files": [
+                "popper.es5.js",
+                "popper.es5.js.map",
+                "popper.es5.min.js",
+                "popper.es5.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.0.2",
+            "files": [
+                "popper.es5.js",
+                "popper.es5.js.map",
+                "popper.es5.min.js",
+                "popper.es5.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "tooltip.es5.js",
+                "tooltip.es5.js.map",
+                "tooltip.es5.min.js",
+                "tooltip.es5.min.js.map",
+                "tooltip.js",
+                "tooltip.js.map",
+                "tooltip.min.js",
+                "tooltip.min.js.map"
+            ]
+        },
+        {
+            "version": "1.0.1",
+            "files": [
+                "popper.es5.js",
+                "popper.es5.js.map",
+                "popper.es5.min.js",
+                "popper.es5.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "tooltip.es5.js",
+                "tooltip.es5.js.map",
+                "tooltip.es5.min.js",
+                "tooltip.es5.min.js.map",
+                "tooltip.js",
+                "tooltip.js.map",
+                "tooltip.min.js",
+                "tooltip.min.js.map"
+            ]
+        },
+        {
+            "version": "1.0.0",
+            "files": [
+                "popper.es5.js",
+                "popper.es5.js.map",
+                "popper.es5.min.js",
+                "popper.es5.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "tooltip.es5.js",
+                "tooltip.es5.js.map",
+                "tooltip.es5.min.js",
+                "tooltip.es5.min.js.map",
+                "tooltip.js",
+                "tooltip.js.map",
+                "tooltip.min.js",
+                "tooltip.min.js.map"
+            ]
+        },
+        {
+            "version": "1.0.0-beta.5",
+            "files": [
+                "popper.es5.js",
+                "popper.es5.js.map",
+                "popper.es5.min.js",
+                "popper.es5.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "tooltip.es5.js",
+                "tooltip.es5.js.map",
+                "tooltip.es5.min.js",
+                "tooltip.es5.min.js.map",
+                "tooltip.js",
+                "tooltip.js.map",
+                "tooltip.min.js",
+                "tooltip.min.js.map"
+            ]
+        },
+        {
+            "version": "1.0.0-beta.4",
+            "files": [
+                "popper.es5.js",
+                "popper.es5.js.map",
+                "popper.es5.min.js",
+                "popper.es5.min.js.map",
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "tooltip.es5.js",
+                "tooltip.es5.js.map",
+                "tooltip.es5.min.js",
+                "tooltip.es5.min.js.map",
+                "tooltip.js",
+                "tooltip.js.map",
+                "tooltip.min.js",
+                "tooltip.min.js.map"
+            ]
+        },
+        {
+            "version": "1.0.0-beta.3",
+            "files": [
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "tooltip.js",
+                "tooltip.js.map",
+                "tooltip.min.js",
+                "tooltip.min.js.map"
+            ]
+        },
+        {
+            "version": "1.0.0-beta.2",
+            "files": [
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "tooltip.js",
+                "tooltip.js.map",
+                "tooltip.min.js",
+                "tooltip.min.js.map"
+            ]
+        },
+        {
+            "version": "1.0.0-beta.1",
+            "files": [
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "tooltip.js",
+                "tooltip.js.map",
+                "tooltip.min.js",
+                "tooltip.min.js.map"
+            ]
+        },
+        {
+            "version": "1.0.0-alpha.8",
+            "files": [
+                "popper.js",
+                "popper.js.map",
+                "popper.min.js",
+                "popper.min.js.map",
+                "tooltip.js",
+                "tooltip.js.map",
+                "tooltip.min.js",
+                "tooltip.min.js.map"
+            ]
+        },
+        {
+            "version": "1.0.0-alpha.7",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map",
+                "tooltip.js",
+                "tooltip.min.js"
+            ]
+        },
+        {
+            "version": "1.0.0-alpha.6",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map",
+                "tooltip.js",
+                "tooltip.min.js"
+            ]
+        },
+        {
+            "version": "1.0.0-alpha.5",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map",
+                "tooltip.js",
+                "tooltip.min.js"
+            ]
+        },
+        {
+            "version": "1.0.0-alpha.4",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map",
+                "tooltip.js",
+                "tooltip.min.js"
+            ]
+        },
+        {
+            "version": "1.0.0-alpha.3",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map",
+                "tooltip.js",
+                "tooltip.min.js"
+            ]
+        },
+        {
+            "version": "1.0.0-alpha.2",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "1.0.0-alpha.1",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "0.6.4",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "0.6.3",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "0.6.2",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "0.6.1",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "0.6.0",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "0.5.3",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "0.5.2",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "0.5.1",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "0.5.0",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "0.4.2",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "0.4.1",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "0.4.0",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "0.3.8",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "0.3.7",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "0.3.6",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "0.3.5",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "0.3.4",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "0.3.3",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "0.3.2",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "0.3.1",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "0.3.0",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "0.2.6",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "0.2.5",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "0.2.4",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "0.2.3",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "0.2.2",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "0.2.1",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        },
+        {
+            "version": "0.2.0",
+            "files": [
+                "popper.js",
+                "popper.min.js",
+                "popper.min.js.map"
+            ]
+        }
+    ]
+}
