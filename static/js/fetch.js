@@ -7,6 +7,8 @@ $(function () {
     var PASSWORD, ws;
     var expiresTime = $input.data('expires') || 600;
     Date.initRealTime($input.data('now'));
+    var maxFileSize = $input.data('size');
+    var $title = $('#title');
 
     function FetchMessage() {
 
@@ -29,7 +31,7 @@ $(function () {
         var $dom = type === 'image' ? FetchMessage.displayImage(fileSource) : FetchMessage.displayFile(fileSource);
         var iv = Math.randomPassword(), en = new Encrypt();
         var $file = $dom.find('.file');
-        console.log(fileSource);
+        //console.log(fileSource);
         en.on('upload.progress', function (e) {
             $file.text(fileSource.name + '(' + e.percent + '/' + Math.fileSizeSI(fileSource.size) + ')');
         });
@@ -46,6 +48,8 @@ $(function () {
                 OFFSET = Math.max(parseInt(e.ok), OFFSET || 0);
                 ws.send('1');
             }
+        }).catch(function (e) {
+            FetchMessage.show('上传出现错误 ' + e, 'raw');
         })
     };
 
@@ -96,7 +100,7 @@ $(function () {
             var en = new Encrypt();
             $a.off('click');
             en.on('download.progress', function (e) {
-                console.log('download.progress', e);
+                //console.log('download.progress', e);
                 $a.text(filename + '(' + e.percent + '/' + Math.fileSizeSI(size) + ')');
             });
             en.download(url, PASSWORD + iv).then(function (file) {
@@ -131,8 +135,12 @@ $(function () {
         var i, file;
         for (i = 0; i < files.length && i < 10; i++) {
             file = files[i];
-            if (file.size > 20 * 1024 * 1024) {
+            if (file.size > maxFileSize * 1024 * 1024) {
                 FetchMessage.show('文件 ' + file.name + ' 太大了，最大允许上传20M，登录以上传更大文件。', 'raw');
+                continue;
+            }
+            if (file.size === 0) {
+                FetchMessage.show('文件 ' + file.name + ' 是空文件', 'raw');
                 continue;
             }
             if (file.type.indexOf('image/') === 0) {
@@ -142,7 +150,7 @@ $(function () {
             }
         }
         if (files.length > 10) {
-            FetchMessage.show('最多选择10个文件，单个文件不得超过 20M', 'raw');
+            FetchMessage.show('最多选择10个文件，单个文件不得超过 ' + maxFileSize + 'M', 'raw');
         }
     };
     FetchMessage.addEvent = function () {
@@ -163,14 +171,34 @@ $(function () {
             }
             $file.click();
         });
+        document.addEventListener('paste', function (event) {
+            var items = event.clipboardData && event.clipboardData.items;
+            var file = null, i;
+            if (items && items.length) {
+                // 检索剪切板items
+                for (i = 0; i < items.length; i++) {
+                    if (items[i].type.indexOf('image') !== -1) {
+                        file = items[i].getAsFile();
+                        break;
+                    }
+                }
+            }
+            if (file) {
+                FetchMessage.sendFiles([file]);
+            }
+            // 此时file就是剪切板中的图片文件
+        });
+        $input.on('blur', function () {
+            $("html,body").animate({scrollTop: document.documentElement.clientHeight}, 200);
+        });
         $main.on({
             dragleave: function (e) {	//拖离
                 e.preventDefault();
                 $main.removeClass('drag');
-                console.log('dragleave', e);
+                //console.log('dragleave', e);
             },
             drop: function (e) {  //拖后放
-                console.log('drop', e);
+                //console.log('drop', e);
                 var files = e.originalEvent.dataTransfer.files;
                 FetchMessage.sendFiles(files);
                 e.preventDefault();
@@ -178,7 +206,7 @@ $(function () {
             dragenter: function (e) {	//拖进
                 e.preventDefault();
                 $main.addClass('drag');
-                console.log('dragenter', e);
+                //console.log('dragenter', e);
             },
             dragover: function (e) {	//拖来拖去
                 e.preventDefault();
@@ -204,19 +232,24 @@ $(function () {
                         sp_message = message.split('/');
                         $img = FetchMessage.show('/static/img/loading.gif', 'image', false, expires);
                         en.download('download?id=' + roomid + '&file=' + sp_message[0], PASSWORD + iv).then(function (file) {
-                            console.log(file, 'image');
+                            //console.log(file, 'image');
                             file.name = sp_message[2];
                             $img.find('p img').attr('src', URL.createObjectURL(file));
                             FetchMessage.scrollTop();
                         }).catch(function (x) {
                             $img.find('p img').attr('src', '图片已过期'.toImage());
                             FetchMessage.scrollTop();
-                        })
+                        });
                     } else if (type === 'file') {
                         sp_message = message.split('/');
                         FetchMessage.showPreFile('download?id=' + roomid + '&file=' + sp_message[0], sp_message[2], sp_message[1], iv, expires);
                     } else if (type === 'raw') {
                         FetchMessage.show(message, 'raw', false, expires);
+                    } else if (type === 'title') {
+                        let title = message ? message.decrypt(PASSWORD + Math.defaultIv) : '';
+                        FetchMessage.show(message ? '频道名称被设置为 ' + title : '频道名称被设置为默认', 'raw', false, expires);
+                        $title.text(title || 'Fetch').data('title', message || '');
+                        document.title = title || 'Fetch';
                     }
                     OFFSET = Math.max(parseInt(row.id), OFFSET || 0);
                 }
@@ -229,7 +262,7 @@ $(function () {
             if (typeof all !== 'object') {
                 localStorage.removeItem('fetch');
                 all = {};
-                console.log(all, JSON.stringify(all));
+                //console.log(all, JSON.stringify(all));
                 localStorage['fetch'] = JSON.stringify(all);
             }
             if (room && password) {
@@ -248,6 +281,44 @@ $(function () {
             localStorage.removeItem('fetch');
         }
     };
+    FetchMessage.initTitle = function () {
+        let titleData = $title.data('title'), title = '';
+        if (titleData) {
+            title = titleData.decrypt(PASSWORD + Math.defaultIv);
+            $title.text(document.title = title);
+        }
+        $title.on('click', function (e) {
+            var $inputTitle = $title.find('input');
+            if ($inputTitle.length) {
+                $inputTitle.trigger('change');
+            } else {
+                $inputTitle = $('<input style="border: 0;outline: 0;" maxlength="100" value="' + title + '"/>');
+                $title.html($inputTitle);
+                $inputTitle.on('change', function () {
+                    var $this = $(this), value = $this.val().trim(), t2;
+                    $title.text(value || 'Fetch');
+                    t2 = value ? value.encrypt(PASSWORD + Math.defaultIv) : '';
+                    title = value;
+                    document.title = title || 'Fetch';
+                    $title.data('title', titleData);
+                    if (t2 !== titleData) {
+                        titleData = t2;
+                        FetchMessage.show('频道名修改为 ' + (value || '默认'), 'raw');
+                        $.post('', {type: 'title', title: titleData}).done(function (e) {
+                            if (e.ok) {
+                                OFFSET = Math.max(parseInt(e.ok), OFFSET || 0);
+                                ws.send('1');
+                            }
+                        });
+                    }
+                }).on('blur', function () {
+                    $inputTitle.trigger('change');
+                }).on('click', function () {
+                    return false;
+                }).focus();
+            }
+        })
+    };
     FetchMessage.start = function () {
         location.hash = '#' + PASSWORD;
         setTimeout(function () {
@@ -261,6 +332,16 @@ $(function () {
         ws.onopen = function () {
             ws.send('1');
         };
+        ws.onclose = function () {
+            setTimeout(function () {
+                let ws2 = new WebSocket(ws.url);
+                ws2.onmessage = function () {
+                    FetchMessage.flush();
+                };
+                ws2.onclose = ws.onclose;
+                ws = ws2;
+            }, 1000);
+        };
         ws.onmessage = function () {
             FetchMessage.flush();
         };
@@ -269,7 +350,9 @@ $(function () {
             $messageBox.find('.message[data-expires]').not('.deleted').each(function () {
                 var $this = $(this), expires = $this.data('expires'),
                     n = ~~(+expires - Date.real() / 1000), time = ~~(n / 60) + ':' + ('0' + n % 60).substr(-2);
-                $this.attr('expires', time);
+                if (n >= 0 && n < 5 * 60) {
+                    $this.attr('expires', time);
+                }
                 if (n < 0) {
                     $this.addClass('deleted');
                     $this.find('.pre-file').off('click');
@@ -280,7 +363,9 @@ $(function () {
                 deleteBox();
             }, 1000);
         }
+
         deleteBox();
+        FetchMessage.initTitle()
     };
 
     FetchMessage.init = function () {
@@ -299,7 +384,7 @@ $(function () {
                 $('.qrcode').qrcode(location.href);
                 FetchMessage.start();
             }).fail(function (e) {
-                console.log(e)
+                //console.log(e)
             });
             return;
         }

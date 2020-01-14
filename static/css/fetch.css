@@ -43,6 +43,9 @@ html,
 body {
     height: 100%;
     background-color: #dedede;
+    overflow: hidden;
+    touch-action: none;
+    overscroll-behavior: none;
 }
 
 body {
@@ -129,13 +132,6 @@ body {
 #main .messageBox .message {
     clear: both;
     position: relative;
-}
-
-#main .messageBox .message.raw[data-expires]:before {
-    content: attr(expires);
-    padding-right: 1rem;
-    font-size: small;
-    color: #808080;
 }
 
 #main .messageBox .message.left[data-expires]:before {

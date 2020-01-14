@@ -186,13 +186,16 @@
                         return false;
                     }
                     let data = JSON.parse(x.responseText);
-                    console.log(x.status, x.readyState);
-                    console.log(data);
+                    //console.log(x.status, x.readyState);
+                    //console.log(data);
+                    if (data.error) {
+                        reject(data.error);
+                    }
                     let formData = new FormData();
                     let xhr = new XMLHttpRequest();
                     xhr.open('POST', data.host);
                     xhr.onreadystatechange = function () {
-                        console.log(xhr.status, xhr.readyState);
+                        //console.log(xhr.status, xhr.readyState);
                         if (xhr.readyState === 4) {
                             that.trigger('upload.finish', xhr);
                             resolve(data.message);
@@ -228,7 +231,7 @@
                                 resolve(data);
                             });
                         } else {
-                            reject(xhr);
+                            reject("下载失败");
                         }
                     }
                 };
@@ -587,8 +590,8 @@ window.jQuery && (function ($) {
         return $("meta[name=csrf-token]").attr("content");
     };
     $.ajaxPrefilter(function (options, originalOptions, jqXHR) {
-        console.log(options);
-        console.log(originalOptions);
+        //console.log(options);
+        //console.log(originalOptions);
         !options.crossDomain && $.getCsrfToken() && jqXHR.setRequestHeader("X-CSRF-Token", $.getCsrfToken())
     });
 })(jQuery);
